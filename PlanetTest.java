@@ -2,13 +2,13 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.Before;
 
-public class PlanetsTest{
+public class PlanetTest{
 
-  Planets planet;
+  Planet planet;
 
   @Before
   public void before(){
-    planet = new Planets("Mars", 21343);
+    planet = new Planet("Mars", 21343);
   }
 
   @Test

@@ -1,8 +1,8 @@
-class Planets {
+class Planet {
   private String name;
   private int size;
 
-  public Planets(String name, int size){
+  public Planet(String name, int size){
     this.name = name;
     this.size = size;
   }
